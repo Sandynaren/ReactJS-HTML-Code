@@ -1,0 +1,7 @@
+body{background-image:url("Background.png");
+    background-size: cover; }
+#fname {background-color: bisque; border-color: brown;}
+#lname {background-color: bisque;}
+#email{background-color: bisque;}
+#pword {background-color: bisque;}
+#age {background-color: bisque;}

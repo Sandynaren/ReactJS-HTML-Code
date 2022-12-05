@@ -1,0 +1,66 @@
+body{background-image:url("Background.png");
+background-size: cover; }
+.header{margin:0px;float:top;top:0;}
+.loginpage{
+    width:250px;
+    height:350px;
+    border: 10px solid white;
+    padding: 40px 20px;
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 200px;
+    border-radius: 20px;
+          }
+    h1{font-style: italic;color: brown; }
+    #login{background-color: aquamarine;}
+    #fp{float:right;}
+    h3{font-style: italic; color: blueviolet;}
+    .ads{width:650px;
+        height:350px;
+        border: 10px solid papayawhip;
+        background:linear-gradient(pink,aqua,yellow) ;
+        border-radius: 20px;
+        position:fixed;
+        right:20px;
+        top:0;
+        font-size: xx-large ;
+        font-style: oblique;
+        color:darkred;
+        text-align: left;
+        margin-top: 20px;
+        
+    }
+    #ad1{width:230px;
+    height:40px;
+    background-color: azure;
+    float:left;
+    position:absolute;
+    top:100px;
+    color:darkgreen;
+    font-size:larger ;
+    text-align: left;
+    }
+#ad2{width:350px;
+    height:40px;
+    background-color: azure;
+    float:bottom;
+    position: absolute;
+    right:0;
+    bottom: 0;
+    color:black;
+    text-align: left;
+    font-size: medium; 
+    padding-top: 8px;   
+}
+
+#sale{position: absolute;
+right:0;}
+#fashion{position: absolute;
+    left:0;
+top:0;
+padding-top: 70px;}
+#view{text-align: left;
+position:absolute;
+left:80px;
+top: 180px;
+background-color:pink;}

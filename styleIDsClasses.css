@@ -1,0 +1,31 @@
+
+h2{color:blueviolet ;font-style: oblique; text-decoration: underline ; }
+.CLASS {
+    height: 100px;
+    width: 100px;
+    margin:20px;
+    border: 3px solid;
+    float:left;
+    padding: 20px;
+    }
+    .Round{border-radius: 100px;
+        height: 100px;
+        width: 100px;
+        border:3px solid;
+    float:left;
+padding:25px;}
+.padding{background-color: beige;
+border: 2px solid;}
+
+#one{
+    background-color: aqua;
+}
+#two{
+    background-color:yellow;
+}
+#three{
+    background-color: yellowgreen;
+}
+#four{
+    background-color:orange;
+}
