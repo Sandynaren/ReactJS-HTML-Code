@@ -18,7 +18,7 @@ background-size: cover; }
     .ads{width:650px;
         height:350px;
         border: 10px solid papayawhip;
-        background:linear-gradient(pink,aqua,yellow) ;
+        background:linear-gradient(pink,aqua,yellow,green) ;
         border-radius: 20px;
         position:fixed;
         right:20px;
