@@ -1,0 +1,60 @@
+GIT Commands
+============
+
+$ git init
+Initialized empty Git repository in C:/Users/rsand/.git/
+
+$ git branch
+
+$ git remote -v
+
+$ git remote add origin https://github.com/Sandynaren/ReactJS-HTML-Code.git
+
+$ git remote -v
+origin  https://github.com/Sandynaren/ReactJS-HTML-Code.git (fetch)
+origin  https://github.com/Sandynaren/ReactJS-HTML-Code.git (push)
+
+$git add .
+
+$git commit -m "add message"
+
+$git push
+
+
+Create new Branch, new file and move that to old branch
+========================================================
+
+1) git checkout -b NewFolder     
+   Switched to a new branch 'NewFolder'
+
+2) git branch  
+  * NewFolder
+   master
+
+3) git commit -am "create new branch"
+   On branch NewFolder
+   Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        banner.png
+
+
+4) git push -u origin NewFolder
+
+ * [new branch]      NewFolder -> NewFolder
+branch 'NewFolder' set up to track 'origin/NewFolder'.
+
+5) PS C:\Users\rsand\Desktop\ReactJS> echo Welcome > Linux.txt
+
+6) git add Linux.txt
+
+7) git commit -m "adding file to new folder"
+
+8) git push origin NewFolder
+
+9) git switch master
+
+10) git checkout NewFolder Linux.txt
+
+11) git commit -am "creating new file from New Folder"
+
+12) git push origin master   
