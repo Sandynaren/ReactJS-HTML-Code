@@ -1,4 +1,4 @@
-body{background-image:url("Background.png");
+body{background-image:none;
     background-size: cover; }
 #fname {background-color: bisque; border-color: brown;}
 #lname {background-color: bisque;}
